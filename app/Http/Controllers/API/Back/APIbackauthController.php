@@ -22,7 +22,7 @@ class APIbackauthController extends Controller
             'password' => 'required|string',
         ]);
 
-        if ($request->email !== 'nyeang@paragoniu.edu.kh') {
+        if ($request->email !== 'admin@gmail.com') {
             return response()->json(['message' => 'Invalid email'], 403);
         }
 

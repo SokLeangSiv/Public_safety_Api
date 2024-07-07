@@ -25,7 +25,7 @@ class AdminMiddleware
             $user = Auth::user();
 
             // Fetch the admin user from the database
-            $adminUser = BackUser::where('email', 'nyeang@paragoniu.edu.kh')->first();
+            $adminUser = BackUser::where('email', 'admin@gmail.com')->first();
 
             // Check if the authenticated user matches the admin user
             if ($adminUser && $user->email === $adminUser->email && Hash::check('12345678', $adminUser->password)) {

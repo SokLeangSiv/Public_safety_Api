@@ -22,7 +22,7 @@ class CheckUserRole
     {
         if (Auth::check()) {
             $user = Auth::user();
-            $adminUser = BackUser::where('email', 'nyeang@paragoniu.edu.kh')->first();
+            $adminUser = BackUser::where('email', 'admin@gmail.com')->first();
 
             if ($adminUser && $user->email === $adminUser->email) {
                 return response()->json(['message' => 'Admin cannot access user routes'], 403);
