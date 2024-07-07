@@ -23,24 +23,24 @@
 
     <div class="grid grid-cols-1 lg:grid-cols-2 max-w-7xl mx-auto mb-20">
 
-        <div class=" max-w-full h-full  mx-auto mb-20 ">
+        <div class=" max-w-full h-full  mx-auto mb-20 font-bold">
             <hr class="w-full bg-slate-700 h-[3px] mb-1">
             <hr class="w-[85%] bg-black h-[3px] ms-[40px]">
 
 
-            <div class="pt-20 px-16">
-                <p class="text-justify font-monospace "> The Government has long yearn for a safer place to live
-                    for the people <br> and understanding the inconvenience and fear
-                    of the people in reporting <br> crime which is the first step to build
-                    a safer communities which is why we <br>have launch a new crime-reporting website. </p>
+            <div class="pt-20 px-14">
+                <p class="text-pretty font-monospace "> The Government has long yearn for a safer place to live
+                    for the people and understanding the inconvenience and fear
+                    of the people in reporting  crime which is the first step to build
+                    a safer communities which is why we have launch a new crime-reporting website. </p>
             </div>
 
 
             <div class="pt-12 px-16 pb-20">
                 <p class="text-justify font-monospace "> The Government has long yearn for a safer place to live
-                    for the people <br> and understanding the inconvenience and fear
-                    of the people in reporting <br> crime which is the first step to build
-                    a safer communities which is why we <br>have launch a new crime-reporting website. </p>
+                    for the people and understanding the inconvenience and fear
+                    of the people in reporting  crime which is the first step to build
+                    a safer communities which is why we have launch a new crime-reporting website. </p>
             </div>
 
 

@@ -13,9 +13,9 @@ return new class extends Migration
     {
         Schema::create('report', function (Blueprint $table) {
             $table->id();
-            $table->string('report_by')->unique();
+            $table->string('report_by');
             $table->date('report_date');
-            
+
             //want to create incident type using input type select around 20 manual display
             $table->string('incident_type');
             $table->date('date_incident');
@@ -28,7 +28,6 @@ return new class extends Migration
             $table->string('long');
             $table->string('report_status')->nullable();
             $table->string('report_image')->nullable();
-            $table->string('report_video')->nullable();
             $table->timestamp('created_at')->nullable();
             $table->timestamp('updated_at')->nullable();
         });
@@ -39,7 +38,7 @@ return new class extends Migration
      */
     public function down(): void
     {
-            
+
             Schema::dropIfExists('report');
     }
 };
